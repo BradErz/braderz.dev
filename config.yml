@@ -1,6 +1,6 @@
 baseURL: /
 languageCode: en-us
-title: braderz.dev
+title: braderz
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -10,9 +10,9 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-minify:
-  disableXML: true
-  minifyOutput: true
+# minify:
+#   disableXML: true
+#   minifyOutput: true
 
 languages:
   en:
@@ -65,7 +65,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content", "description"]
+    keys: ["title", "permalink", "summary", "content"]
 
 privacy:
   vimeo:
