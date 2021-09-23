@@ -46,7 +46,7 @@ params:
   ShowShareButtons: true
   ShowReadingTime: true
   homeInfoParams:
-    Title: "Welcome to the ramblings of Brad"
+    Title: "Welcome to my ramblings 👋"
     Content: >
       You have come accross my website where you might find some ponderings and ramblings of an SRE
 
