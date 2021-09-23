@@ -39,6 +39,11 @@ outputs:
     - RSS
     - JSON
 
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5    
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "You have come accross my website where you might find some ponderings and ramblings of an SRE"
