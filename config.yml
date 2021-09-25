@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: "https://braderz.dev/"
 languageCode: en-us
 title: braderz
 theme: "PaperMod"
