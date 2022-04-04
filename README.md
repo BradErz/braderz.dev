@@ -1,3 +1,2 @@
 # braderz.dev
 website 
-rebuild
