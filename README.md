@@ -1,2 +1,1 @@
 # braderz.dev
-rebuild
