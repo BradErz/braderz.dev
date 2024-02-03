@@ -38,7 +38,7 @@ outputs:
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
-  priority: 0.5    
+  priority: 0.5
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -51,10 +51,10 @@ params:
       You have come accross my website where you might find some ponderings and ramblings of an SRE
 
   socialIcons:
-  - name: github
-    url: "https://github.com/BradErz"
-  - name: Twitter
-    url: "https://twitter.com/BradErzwh"
+    - name: github
+      url: "https://github.com/BradErz"
+    - name: Twitter
+      url: "https://twitter.com/BradErzwh"
 
   ShowCodeCopyButtons: true
   ShowShareButtons: false
