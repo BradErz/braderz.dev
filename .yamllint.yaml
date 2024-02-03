@@ -3,6 +3,8 @@ extends: "default"
 ignore: |
   .build/
   vendor/
+  node_modules/
+  themes/
 
 rules:
   octal-values:

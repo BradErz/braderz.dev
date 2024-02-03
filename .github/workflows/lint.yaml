@@ -21,3 +21,13 @@ jobs:
           globs: |
             *.md
             !test/*.md
+  yaml-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+      - run:
+          pip install yamllint
+      - run: yamllint -c .yamllint.yaml .
