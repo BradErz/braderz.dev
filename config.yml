@@ -40,12 +40,12 @@ sitemap:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   defaultTheme: dark
-  description: "You have come accross my website where you might find some ponderings and ramblings of an SRE"
+  description: "Posts about random things I find interesting"
   author: BradErz
   homeInfoParams:
     Title: "Welcome to my ramblings 👋"
     Content: >
-      You have come accross my website where you might find some ponderings and ramblings of an SRE
+      Here you will find posts about random things i find useful or intresting.
 
   socialIcons:
     - name: github
