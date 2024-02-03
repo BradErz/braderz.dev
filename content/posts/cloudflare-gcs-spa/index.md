@@ -7,6 +7,7 @@ draft: true
 ---
 
 Single page applications or SPA's need a webserver to make sure any request hitting the server is routed back to the single `index.html` file so that the application can controll the routing of the request. This can be acheived quite simply with nginx by doing something like this: (TODO: metion about shebang routing which is controlled by the client entirely and not routed to the server)
+
 ```nginx
 server {
     server_name example.com;
@@ -26,8 +27,8 @@ Now there are many services out there today which allow you to host SPA applicat
 
 Lots more detail can be found on the [React deployment documentation][react deployment docs]
 
-
 ## Soloution
+
 Cloudflare added something called Transform Rules which basically allows us to acheive what our nginx config was doing but being executed at the edge.
 
 Under the `When incoming requests match…` click `edit expresssion` and enter the following (make sure to change `example.com` to the hostname where your hosting the SPA):
@@ -39,7 +40,6 @@ Under the `When incoming requests match…` click `edit expresssion` and enter t
 
 Then you want to rewrite to a static path of `/index.html`. It should look like this:
 ![Cloudflare transform rule example](cloudflare-transform-rule.png)
-
 
 <!-- Page Links -->
 [cloudflare pages]: https://pages.cloudflare.com/ "Cloudflare Pages"

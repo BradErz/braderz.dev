@@ -7,5 +7,3 @@ draft: false
 ---
 
 Welcome to my very first post using hugo!
-
-
