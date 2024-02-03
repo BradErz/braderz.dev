@@ -1,0 +1,10 @@
+---
+
+# if you want to tune any of the markdownlint configuration rules you need to specify them
+# under this config block. https://github.com/DavidAnson/markdownlint/blob/main/README.md#optionsconfig
+config:
+  line-length: false
+
+# Define glob expressions to ignore
+ignores:
+  - "**/*.!(md)"
